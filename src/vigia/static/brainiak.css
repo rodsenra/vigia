@@ -1,0 +1,37 @@
+#action_response,
+.env {
+  font-family: Tahoma, Trebuchet;
+  stroke: white;
+  fill: white;
+}
+
+#action_response {
+    stroke-width: 1;
+    fill: red;
+}
+
+.anylabel {
+  text-anchor: middle;
+  font-family: Tahoma, Trebuchet;
+  font-size: 24px;
+  stroke-width: 0;
+  stroke: white;
+  fill: white;
+}
+
+.line {
+  stroke-width: 2;
+  stroke: #2f6f95;
+}
+
+.component {
+    stroke: white;
+    fill-opacity: 0.4;
+    stroke-width: 2;
+    pointer-events: all;
+}
+
+.component:hover {
+    stroke: red !important;
+}
+

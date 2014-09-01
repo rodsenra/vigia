@@ -1,0 +1,123 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet href="brainiak.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Semântica</title>
+
+  <text id="env_dev" class="env"   y="20" x="20">DEV</text>
+  <text id="env_qa01" class="env"  y="20" x="80">QA01</text>
+  <text id="env_prod" class="env"  y="20" x="140">PROD</text>
+
+  <rect id="brainiak" class="component" height="309.999998" width="40" y="81" x="286" />
+  <text id="brainiak_label" class="anylabel" transform="rotate(-89.4547 305 240.523)" xml:space="preserve"   y="249" x="305" >Brainiak API</text>
+
+  <path id="virtuoso_master" class="component"  d="m540.51001,213.031952c0,4.602234 -12.537109,8.333603 -28,8.333603m28,-8.333603l0,0c0,4.602234 -12.537109,8.333603 -28,8.333603c-15.464691,0 -28,-3.730789 -28,-8.333603m0,0l0,0c0,-4.602264 12.535309,-8.333618 28,-8.333618c15.462891,0 28,3.731354 28,8.333618l0,33.333832c0,4.60228 -12.537109,8.333069 -28,8.333069c-15.464691,0 -28,-3.730789 -28,-8.333069l0,-33.333832z"  />
+  <filter id="pictureFilter" >
+    <feGaussianBlur stdDeviation="5" />
+  </filter>
+  <path id="virtuoso_slave_1" class="component" d="m619,164.833359c0,4.602234 -12.537109,8.333603 -28,8.333603m28,-8.333603l0,0c0,4.602234 -12.537109,8.333603 -28,8.333603c-15.464722,0 -28,-3.730789 -28,-8.333603m0,0l0,0c0,-4.602264 12.535278,-8.333618 28,-8.333618c15.462891,0 28,3.731354 28,8.333618l0,33.333817c0,4.602295 -12.537109,8.333069 -28,8.333069c-15.464722,0 -28,-3.730774 -28,-8.333069l0,-33.333817z"  />
+  <path id="virtuoso_slave_2" class="component" d="m619,222.833359c0,4.602234 -12.537109,8.333603 -28,8.333603m28,-8.333603l0,0c0,4.602234 -12.537109,8.333603 -28,8.333603c-15.464722,0 -28,-3.730789 -28,-8.333603m0,0l0,0c0,-4.602264 12.535278,-8.333618 28,-8.333618c15.462891,0 28,3.731354 28,8.333618l0,33.333817c0,4.602295 -12.537109,8.333069 -28,8.333069c-15.464722,0 -28,-3.730774 -28,-8.333069l0,-33.333817z" />
+  <path id="virtuoso_slave_3" class="component" d="m621,280.833374c0,4.602234 -12.537109,8.333588 -28,8.333588m28,-8.333588l0,0c0,4.602234 -12.537109,8.333588 -28,8.333588c-15.464722,0 -28,-3.730804 -28,-8.333588m0,0l0,0c0,-4.602295 12.535278,-8.333618 28,-8.333618c15.462891,0 28,3.731323 28,8.333618l0,33.333801c0,4.602295 -12.537109,8.333069 -28,8.333069c-15.464722,0 -28,-3.730774 -28,-8.333069l0,-33.333801z" />
+  <text id="virtuoso_label" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" y="243.976563" x="677"  stroke-width="0" stroke="#ffffff" fill="#ffffff">Virtuoso</text>
+
+  <path id="redis" class="component"  d="m430,89.500038c0,4.970413 -6.940186,9.00029 -15.5,9.00029m15.5,-9.00029l0,0c0,4.970413 -6.940186,9.00029 -15.5,9.00029c-8.560822,0 -15.5,-4.029251 -15.5,-9.00029m0,0l0,0c0,-4.970436 6.939178,-9.000298 15.5,-9.000298c8.559814,0 15.5,4.029861 15.5,9.000298l0,36.000496c0,4.970474 -6.940186,8.99971 -15.5,8.99971c-8.560822,0 -15.5,-4.029236 -15.5,-8.99971l0,-36.000496z" />
+  <text id="redis_label" class="anylabel" xml:space="preserve"   y="115.976563" x="472"> Redis </text>
+
+  <path id="elasticsearch" class="component"  d="m500,388.833435c0,6.259033 -12.760986,11.333649 -28.5,11.333649m28.5,-11.333649l0,0c0,6.259033 -12.760986,11.333649 -28.5,11.333649c-15.740845,0 -28.5,-5.073883 -28.5,-11.333649m0,0l0,0c0,-6.259094 12.759155,-11.333679 28.5,-11.333679c15.739014,0 28.5,5.074585 28.5,11.333679l0,45.333862c0,6.259094 -12.760986,11.332947 -28.5,11.332947c-15.740845,0 -28.5,-5.073853 -28.5,-11.332947l0,-45.333862z" />
+  <text id="elasticsearch_label" class="anylabel" xml:space="preserve"  y="421.976563" x="576" >ElasticSearch</text>
+
+  <path id="solr" class="component" d="m499.5,507.833435c0,6.259033 -12.760986,11.333679 -28.5,11.333679m28.5,-11.333679l0,0c0,6.259033 -12.760986,11.333679 -28.5,11.333679c-15.740845,0 -28.5,-5.073914 -28.5,-11.333679m0,0l0,0c0,-6.259094 12.759155,-11.333679 28.5,-11.333679c15.739014,0 28.5,5.074585 28.5,11.333679l0,45.333862c0,6.259094 -12.760986,11.332947 -28.5,11.332947c-15.740845,0 -28.5,-5.073853 -28.5,-11.332947l0,-45.333862z" />
+  <text id="solr_label" class="anylabel" xml:space="preserve"  y="542.976563" x="525">Solr</text>
+
+  <rect id="barramento" class="component"  height="33.000001" width="153.999997" y="484.499999" x="51" />
+  <text id="barramento_label" class="anylabel"  xml:space="preserve"  y="508.976563" x="124">Barramento</text>
+
+  <rect id="mercury" class="component"  height="29.999999" width="126.999999" y="402.500001" x="127.000002" />
+  <text id="mercury_label" class="anylabel" xml:space="preserve" y="424" x="191">Mercury</text>
+
+
+  <line id="line_brainiak_virtuoso_master" class="line" y2="235" x2="485" y1="238" x1="326" />
+  <line id="line_brainiak_redis" class="line" y2="109" x2="399" y1="109" x1="325" />
+  <line id="line_brainiak_elasticsearch" class="line" y2="379" x2="457" y1="303" x1="326" />
+  <path id="path_brainiak_mercury" class="line" stroke="#000000" d="m188,400c0,-1.013 0,-2.02597 0,-3.038971c0,-1.01297 0,-2.02597 0,-3.03894c0,-2.02597 0,-4.051971 0,-6.077942c0,-3.03894 1.185181,-8.103882 2.370377,-12.155823c1.185181,-4.051971 1.553467,-8.185211 2.370361,-11.142883c0.608887,-2.204498 2.121307,-4.131378 3.555557,-7.090881c1.014175,-2.092712 2.031555,-4.266388 4.740738,-7.090912c2.125275,-2.215759 5.587112,-5.279358 8.296295,-8.103912c3.187897,-3.323608 8.452744,-4.817047 13.037048,-7.090912c3.695969,-1.833221 7.189331,-2.915009 9.481476,-4.051941c3.695984,-1.833221 6.747772,-2.490723 8.296295,-3.038971c1.094955,-0.387665 2.370377,0 3.555557,0c1.185181,0 1.185181,-1.01297 2.370377,-1.01297c1.185181,0 2.370361,0 2.370361,0c1.185181,0 3.555557,-1.013 5.925934,-1.013c2.370377,0 3.587265,-1.793213 4.740738,-2.02597c2.579254,-0.520416 4.740723,-1.01297 5.925934,-1.01297c1.185181,0 3.555542,0 4.740723,0c1.185181,0 2.717529,0.716248 3.555573,0c0.838013,-0.716278 1.185181,-1.013 2.370361,-1.013c1.185181,0 1.185181,0 2.370361,0c1.185181,0 1.185181,0 2.370392,0c1.185181,0 2.370361,0 2.370361,0l1.185181,0"  stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" fill="none"/>
+
+  <line id="line_virtuoso_master_slave1" class="line" y2="190" x2="564" y1="228" x1="542" />
+  <line id="line_virtuoso_master_slave2" class="line" y2="238" x2="562" y1="233" x1="541" />
+  <line id="line_virtuoso_master_slave3" class="line" y2="301" x2="565" y1="239" x1="542" />
+
+  <line id="line_mercury_elasticsearch" class="line" stroke="#000000"  y2="412" x2="443" y1="413" x1="255.999995" />
+  <line id="line_mercury_solr" class="line" stroke="#000000"  y2="533" x2="442" y1="431.000002" x1="256" />
+  <line id="line_barramento_mercury" class="line" y2="432" x2="188" y1="483" x1="189" />
+
+  <text id="action_response" xml:space="preserve" y="570" x="100"></text>
+
+ </g>
+
+    <script type="text/javascript"> <![CDATA[
+
+     var env = undefined;
+     function resetEnvs() {
+       var envs = document.getElementsByClassName("env");
+       for (var i=0; i<envs.length; i++)  {
+         envs[i].style.stroke = "black";
+       }
+     }
+
+     function changeEnv(target_env) {
+       resetEnvs();
+       var env_element = document.getElementById(target_env);
+       env_element.style.stroke = "red";
+       env = target_env;
+     }
+
+     function resetActionResponse() {
+        document.getElementById("action_response").innerHTML = "?";
+     }
+
+     function userAction(element_id) {
+        var xmlhttp;
+
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("action_response").innerHTML = xmlhttp.responseText;
+                setTimeout("resetActionResponse()", 5000);
+            }
+        }
+        xmlhttp.open("GET", "userAction?element_id=" + element_id + "&env=" + env, true);
+        xmlhttp.send();
+     }
+
+     function bindOnClick() {
+       var classes = document.getElementsByClassName("component");
+       for (var i=0; i<classes.length; i++)  {
+         classes[i].onclick =  function () {
+           userAction(this.id);
+         };
+       }
+
+       var envs = document.getElementsByClassName("env");
+       for (var i=0; i<envs.length; i++)  {
+         envs[i].onclick =  function () {
+           changeEnv(this.id);
+         };
+       }
+       changeEnv('env_dev');
+     }
+
+    bindOnClick();
+    ]]> </script>
+
+</svg>
+
