@@ -2,11 +2,8 @@
 __pycache__/
 *.py[cod]
 
-<<<<<<< HEAD
 .idea/
 
-=======
->>>>>>> db7c1c936daf476a70108a99f427061b14522cd8
 # C extensions
 *.so
 
